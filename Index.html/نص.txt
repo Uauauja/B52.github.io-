@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="موقع أسرة النفج من الجعافرة من عنزة: تاريخ عريق ورؤية للمستقبل. تعرف على تاريخ العائلة وتراثها المميز.">
+    <meta name="keywords" content="أسرة النفج, الجعافرة, عنزة, تاريخ, تراث, عائلة">
+    <meta name="author" content="أسرة النفج">
+    <title>موقع أسرة النفج من الجعافرة من عنزة</title>
+    <style>
+        body {
+            font-family: 'Tahoma', sans-serif;
+            direction: rtl;
+            text-align: right;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #800000;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            background-color: #333;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 1.1em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        main {
+            padding: 40px 20px;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section h2 {
+            font-size: 2.5em;
+            color: #800000;
+            margin-bottom: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: space-evenly;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .contact-form button {
+            background-color: #800000;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #B22222;
+        }
+
+        #scrollTop {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #800000;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            cursor: pointer;
+            display: none;
+            font-size: 1.5em;
+        }
+
+        #scrollTop:hover {
+            background-color: #B22222;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>أسرة النفج من الجعافرة من عنزة</h1>
+        <p>تاريخ عريق ورؤية للمستقبل</p>
+    </header>
+
+    <nav>
+        <a href="#about">عن العائلة</a>
+        <a href="#heritage">تراث العائلة</a>
+        <a href="#gallery">معرض الصور</a>
+        <a href="#contact">تواصل معنا</a>
+    </nav>
+
+    <main>
+        <section id="about" class="section">
+            <h2>عن العائلة</h2>
+            <p>أسرة النفج هي إحدى الأسر العريقة التي تنتمي إلى قبيلة الجعافرة من عنزة. هذه الأسرة التي تفتخر بتاريخها الطويل وحفاظها على تقاليدها العريقة، تُعدّ رمزاً للكرم والشجاعة في المنطقة. مع مرور الأجيال، حافظت العائلة على التواصل الوثيق مع تاريخها، مما يعكس أصالتها وعمق تراثها.</p>
+        </section>
+
+        <section id="heritage" class="section">
+            <h2>تراث العائلة</h2>
+            <p>تراث عائلة النفج يتسم بالعديد من الخصائص التقليدية التي تعكس تاريخ الجزيرة العربية. تفتخر العائلة بالحفاظ على الحِرف اليدوية الأصيلة مثل صناعة السجاد العربي، وكتابة الشعر الجاهلي، بالإضافة إلى قيم الشجاعة والكرم التي تمثل حجر الزاوية في ثقافة العائلة.</p>
+        </section>
+
+        <section id="gallery" class="section">
+            <h2>معرض الصور</h2>
+            <div class="gallery">
+                <img src="A68AA80A-4F9F-48D3-9276-0D6530B91072.jpeg" alt="اجتماع مغلق بين سادات قبائل جيزان" loading="lazy" />
+                <img src="6A91C16B-9239-4031-A6B7-16B82A3BC2E6.jpeg" alt="صورة في مجلس عائلي" loading="lazy" />
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>تواصل معنا</h2>
+            <p>إذا كنت ترغب في التواصل مع أسرة النفج، يمكنك إرسال رسالة مباشرة عبر النموذج أدناه.</p>
+            <form class="contact-form" id="contactForm">
+                <input type="text" id="name" placeholder="اسمك" required />
+                <input type="email" id="email" placeholder="بريدك الإلكتروني" required />
+                <textarea id="message" placeholder="رسالتك" rows="4" required></textarea>
+                <button type="submit">إرسال الرسالة</button>
+            </form>
+            <div id="responseMessage" style="margin-top: 20px; color: green; display: none;">تم إرسال رسالتك بنجاح!</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 جميع الحقوق محفوظة - أسرة النفج من الجعافرة من عنزة</p>
+    </footer>
+
+    <button id="scrollTop" onclick="scrollToTop()">↑</button>
+
+    <script>
+        // Scroll to Top functionality
+        window.onscroll = function() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                document.getElementById("scrollTop").style.display = "block";
+            } else {
+                document.getElementById("scrollTop").style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        // Contact form submission
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            document.getElementById('responseMessage').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
